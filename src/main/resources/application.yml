@@ -9,3 +9,13 @@ spring:
     console:
       enabled: true
 
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 889821385416-9vgg7512o5vus91lamolk5l8989f59hk.apps.googleusercontent.com
+            client-secret: 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
+            scope:
+              - email
+              - profile
